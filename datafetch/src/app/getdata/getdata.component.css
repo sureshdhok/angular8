@@ -1,0 +1,22 @@
+table,th,td{
+    text-align: center;
+    border: 2px solid black;
+    width: 50%;
+    /* padding: 10px auto; */
+    text-align: center;
+}
+
+table{
+    margin-left: 100px;
+}          
+
+
+th{
+    background-color:darkseagreen;
+    color: black;
+}
+
+td{
+    background-color:peachpuff;
+    color: black;
+}

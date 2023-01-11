@@ -1,0 +1,29 @@
+<p>getdata works!</p>
+
+
+
+<table>
+    <thead>
+        <tr>
+            <th>Date Time</th>
+            <th>Open</th>
+            <th>High</th>
+            <th>Low</th>
+            <th>Close</th>
+            <th>Volume</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let data of finalData">
+            <td>{{getDate}}</td>
+            <td>{{data['1. open']}}</td>
+            <td>{{data['2. high']}}</td>
+            <td>{{data['3. low']}}</td>
+            <td>{{data['4. close']}}</td>
+            <td>{{data['5. volume']}}</td>
+        </tr>
+    </tbody>
+</table>
+
+
+
